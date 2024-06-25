@@ -23,3 +23,4 @@ float_values = [1.0, 2.0, 3.0]
 int_values = [int(value) for value in float_values]  
 a = tf.constant(int_values, dtype=tf.int32)  
 再次编译，成功运行  
+### 3.关于tf.reduce_sum函数
