@@ -17,4 +17,8 @@ a=tf.constant([1,2,3],dtype=tf.float32)\
 此时a的数值类型为float32而不是创建时写的int32\
 import tensorflow as tf\
 a=tf.constant([1.0,2.0,3.0],dtype=tf.int64)\
-此时报错，因为float无法转化为int型
+此时会报错，因为int型隐式转化为float型是可行的，而float型转化为int型需要进行显式转化，例如对常量a中的每一个值都进行显式转化：\
+float_values = [1.0, 2.0, 3.0]\
+int_values = [int(value) for value in float_values]\
+a = tf.constant(int_values, dtype=tf.int32)\
+再次编译，成功运行
