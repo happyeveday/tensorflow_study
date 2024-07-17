@@ -41,7 +41,8 @@ b称为偏置(bias)，为数学中所称的截距(intercept)。
 
 ![image](https://github.com/user-attachments/assets/90c9b359-e225-4279-9bd5-d4fc744d0c9b) 
 
-
+在机器学习中，我们希望获得损失最小的训练结果，即: 
+argminL(w,b). 
 
 ### 实践-波士顿房价模型
 [点击这个链接，查看相关信息](https://github.com/happyeveday/Boston_price)
