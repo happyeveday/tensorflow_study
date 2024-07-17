@@ -1,6 +1,6 @@
 # Tensorflow Study - By Yang
 ## 系统及相关硬件：Windows10 AMD-2GB显卡 
-## 开发环境：python3.7.11 tensorflow2.11
+## 开发环境：python3.7.12 tensorflow2.11
 ## 前言
 本人才疏学浅，精力有限，于2024年4月起，目前截止2024年7月，仅仅学习了tensorflow的2.0版本，且目前仅仅在cpu上运行尝试。 
 这台电脑配置较低，显卡为AMD，无法使用Nvidia显卡的cuda加速，故浅尝辄止。本篇文章意在查漏补缺、巩固知识、温故知新。 
