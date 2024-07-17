@@ -37,5 +37,11 @@ b称为偏置(bias)，为数学中所称的截距(intercept)。
 ![image](https://github.com/user-attachments/assets/07781323-101a-47ec-ba97-dcb377e094b4) 
 
 其中取1/2这个值并不会影响最终的损失判定，但是便于我们求导。 
+具体到计算n个样本产生的损失值，可得下式: 
+
+![image](https://github.com/user-attachments/assets/90c9b359-e225-4279-9bd5-d4fc744d0c9b) 
+
+
+
 ### 实践-波士顿房价模型
 [点击这个链接，查看相关信息](https://github.com/happyeveday/Boston_price)
